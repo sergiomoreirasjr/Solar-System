@@ -11,8 +11,8 @@ class Title extends React.Component {
 }
 
 Title.propTypes = {
-  headline: PropTypes.string.isRequired, // 1: https://reactjs.org/docs/typechecking-with-proptypes.html
-};
+  headline: PropTypes.string, // 1: https://reactjs.org/docs/typechecking-with-proptypes.html
+}.isRequired;
 
 export default Title;
 

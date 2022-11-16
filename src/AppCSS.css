@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: bold;
+}
+
+header,
+h1,
+h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  background-image: url('images/background.png');
+  background-position: center;
+  color: azure;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* [ data-testid="planet-card"] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+} */
+
+div img:hover {
+  transform: scale(2);
+}
+
+/* Mercúrio */
+div img {
+  width: 2.9mm;
+  width: 6cm;
+  transition: 0.2s;
+}
+
+/* Vênus */
+div:nth-of-type(2) img {
+  width: 7.0mm;
+  width: 6cm;
+}
+
+/* Terra */
+div:nth-of-type(3) img {
+  width: 7.3mm;
+  width: 6cm;
+}
+
+/* Marte */
+div:nth-of-type(4) img {
+  width: 3.9mm;
+  width: 6cm;
+}
+
+/* Júpiter */
+div:nth-of-type(5) img {
+  width: 82.1mm;
+  width: 6cm;
+}
+
+/* Saturno  */
+div:nth-of-type(6) img {
+  width: 69.0mm;
+  width: 6cm;
+}
+
+/* Urano */
+div:nth-of-type(7) img {
+  width: 29.2mm;
+  width: 6cm;
+}
+
+/* Netuno */
+div:nth-of-type(8) img {
+  width: 27.9mm;
+  width: 6cm;
+}
+
+[ data-testid="mission-card"] {
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1110219b;
+  width: 200px;
+  height: 250px;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0.5em 1.5em rgba(233, 237, 203, 0.702);
+}
+
+
+/*
+ Tamanho dos planetas: https: //dialnet.unirioja.es/descarga/articulo/5165587.pdf
+*/

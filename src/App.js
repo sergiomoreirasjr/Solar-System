@@ -1,4 +1,5 @@
 import React from 'react';
+import './AppCSS.css';
 
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
